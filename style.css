@@ -149,7 +149,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .call-to-action button {
-  color: #fb7413;
+  color: white;
+  background: #fb7413;
   text-transform: uppercase;
   border-radius: 50vmax;
   outline: none;
@@ -161,7 +162,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .call-to-action button:hover,
 .call-to-action button:focus {
-  background: #fb7413;
-  color: white;
+  background: white;
+  color: #fb7413;
 }
 /*# sourceMappingURL=style.css.map */
