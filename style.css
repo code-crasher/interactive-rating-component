@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  place-items: center;
+  place-content: center;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: #14161a;
+  color: #959eac;
+  font-size: 15px;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.rating__component,
+.rating__component-submit {
+  width: 250px;
+  background: #212831;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.rating__component-submit {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.rating__component-submit .logo {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.rating__component-submit img {
+  width: 50%;
+}
+
+.rating-display {
+  padding: 0.125rem 0.5rem;
+  background: #29323d;
+  margin-block: 0.575rem;
+  border-radius: 10vmax;
+  color: #fb7413;
+  font-weight: 400;
+}
+
+.logo__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.15rem;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background: #29323d;
+  border-radius: 50vmax;
+}
+
+.logo__btn img {
+  width: 15px;
+}
+
+.content__txt h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.content__txt p {
+  margin-block: 0.5rem;
+  font-weight: 400;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.buttons button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50vmax;
+  outline: none;
+  border: none;
+  background: #29323d;
+  color: #959eac;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: hwb(216 49% 40%);
+}
+
+.buttons button:active,
+.buttons button:focus {
+  background-color: #fb7413;
+  color: white;
+}
+
+.call-to-action {
+  display: -ms-grid;
+  display: grid;
+}
+
+.call-to-action button {
+  color: #fb7413;
+  text-transform: uppercase;
+  border-radius: 50vmax;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  padding-block: 0.135rem;
+  cursor: pointer;
+}
+
+.call-to-action button:hover,
+.call-to-action button:focus {
+  background: #fb7413;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
